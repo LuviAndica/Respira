@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pernapasan Manusia - Anatomi Klinis 3D</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="nav-logo">
+            <span class="icon-box">R3D</span>
+            Respira<span class="logo-accent">Medical</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#components">Komponen Anatomi</a></li>
+            <li><a href="#viewer">Model 3D Klinis</a></li>
+            <li><a href="#features">Karakteristik Medis</a></li>
+            <li><a href="#footer" class="nav-cta">Eksplorasi Anatomi</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu Navigasi">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">Atlas Anatomi & Visualisasi Medis 3D</span>
+                <h1>
+                    Sistem <br>
+                    <span class="highlight">Pernapasan</span> Manusia
+                </h1>
+                <p>
+                    Portal studi dan visualisasi interaktif struktur sistem respirasi manusia secara komprehensif.
+                    Analisis setiap organ secara mendalam melalui proyeksi spasial 3D dengan akurasi anatomi klinis.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#components" class="btn-primary">
+                        Jelajahi Struktur Organ
+                    </a>
+                    <a href="#viewer" class="btn-secondary">
+                        Lihat Model 3D Interaktif
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-3d-container">
+                    <iframe 
+                        title="Human Respiratory system review"
+                        loading="lazy"
+                        frameborder="0"
+                        allowfullscreen
+                        mozallowfullscreen="true"
+                        webkitallowfullscreen="true"
+                        allow="autoplay; fullscreen; xr-spatial-tracking"
+                        src="https://sketchfab.com/models/250911151757489da1cf5501b791f363/embed?autostart=1&ui_theme=dark&ui_controls=0&ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0&ui_inspector=0&ui_annotations=0&ui_stop=0&ui_hint=0&ui_ar=0&ui_vr=0&ui_fullscreen=0&ui_general_controls=0&ui_fadeout=0&dnt=1">
+                    </iframe>
+                    <span class="hero-3d-label">Model Anatomi Utuh (Respirasi)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== COMPONENTS SECTION ===== -->
+    <section class="components-section" id="components">
+        <div class="section-title">
+            <h2>Komponen Sistem Respirasi</h2>
+            <p>Pilih organ untuk meninjau data klinis, struktur jaringan, dan model rekonstruksi 3D</p>
+        </div>
+        <div class="components-grid">
+            <!-- 1. Hidung -->
+            <div class="component-card" data-component="hidung" style="animation-delay:0.05s;">
+                <div class="card-header-meta">
+                    <span class="dept-tag">Traktus Respiratori Superior</span>
+                    <span class="click-hint">Buka Data</span>
+                </div>
+                <h3>Hidung (Nasus)</h3>
+                <p>Gerbang utama masuknya udara. Berfungsi menyaring partikel melalui vibrissae, menghangatkan suhu udara, dan mengatur kelembapan.</p>
+                <span class="model-badge">Rekonstruksi 3D Tersedia</span>
+                <span class="learn-more">Tinjau Data Klinis &rarr;</span>
+            </div>
+
+            <!-- 2. Rongga Hidung -->
+            <div class="component-card" data-component="rongga" style="animation-delay:0.1s;">
+                <div class="card-header-meta">
+                    <span class="dept-tag">Traktus Respiratori Superior</span>
+                    <span class="click-hint">Buka Data</span>
+                </div>
+                <h3>Rongga Hidung (Cavum Nasi)</h3>
+                <p>Ruang berlapis mukosa dengan struktur konka nasalis superior, media, dan inferior untuk mengoptimalkan turbulensi dan pertukaran termal.</p>
+                <span class="model-badge">Rekonstruksi 3D Tersedia</span>
+                <span class="learn-more">Tinjau Data Klinis &rarr;</span>
+            </div>
+
+            <!-- 3. Laring, Trakea & Bronkus -->
+            <div class="component-card" data-component="trakea" style="animation-delay:0.15s;">
+                <div class="card-header-meta">
+                    <span class="dept-tag">Saluran Konduksi</span>
+                    <span class="click-hint">Buka Data</span>
+                </div>
+                <h3>Laring, Trakea & Bronkus</h3>
+                <p>Saluran konduksi udara utama yang disokong oleh cincin kartilago hialin berbentuk C serta pita suara (plika vokalis) untuk fonasi.</p>
+                <span class="model-badge">Rekonstruksi 3D Tersedia</span>
+                <span class="learn-more">Tinjau Data Klinis &rarr;</span>
+            </div>
+
+            <!-- 4. Paru-paru -->
+            <div class="component-card" data-component="paru" style="animation-delay:0.2s;">
+                <div class="card-header-meta">
+                    <span class="dept-tag">Organ Respirasi Utama</span>
+                    <span class="click-hint">Buka Data</span>
+                </div>
+                <h3>Paru-Paru (Pulmo)</h3>
+                <p>Organ utama respirasi internal dan eksternal. Mengandung jutaan unit alveolus sebagai tempat pertukaran difusi O2 dan CO2 dalam darah.</p>
+                <span class="model-badge">Rekonstruksi 3D Tersedia</span>
+                <span class="learn-more">Tinjau Data Klinis &rarr;</span>
+            </div>
+
+            <!-- 5. Diafragma -->
+            <div class="component-card" data-component="diafragma" style="animation-delay:0.25s;">
+                <div class="card-header-meta">
+                    <span class="dept-tag">Muskulus Respiratori</span>
+                    <span class="click-hint">Buka Data</span>
+                </div>
+                <h3>Diafragma (Diaphragma)</h3>
+                <p>Otot rangka utama berbentuk kubah yang memisahkan cavum thoracis dan cavum abdominis, mengendalikan gradien tekanan intratorakal.</p>
+                <span class="model-badge">Rekonstruksi 3D Tersedia</span>
+                <span class="learn-more">Tinjau Data Klinis &rarr;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 3D VIEWER SECTION ===== -->
+    <section class="viewer-section" id="viewer">
+        <div class="section-title">
+            <h2>Eksplorasi Spasial 3D Interaktif</h2>
+            <p>Manipulasi rotasi, penyesuaian sudut pandang, dan inspeksi detail anatomi</p>
+        </div>
+        <div class="viewer-container">
+            <div class="viewer-wrapper">
+                <iframe 
+                    id="main3DViewer"
+                    title="Human Respiratory system review"
+                    loading="lazy"
+                    frameborder="0"
+                    allowfullscreen
+                    mozallowfullscreen="true"
+                    webkitallowfullscreen="true"
+                    allow="autoplay; fullscreen; xr-spatial-tracking"
+                    src="https://sketchfab.com/models/250911151757489da1cf5501b791f363/embed?autostart=0&ui_theme=dark&ui_controls=0&ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0&ui_inspector=0&ui_annotations=0&ui_stop=0&ui_hint=0&ui_ar=0&ui_vr=0&ui_fullscreen=0&ui_general_controls=0&ui_fadeout=0&dnt=1">
+                </iframe>
+            </div>
+            <div class="viewer-info">
+                <div class="left">
+                    <span>Viewer Medis 3D</span>
+                    <span class="dot">•</span>
+                    <span>Sistem Respirasi Terpadu</span>
+                    <span class="dot">•</span>
+                    <span style="color: var(--primary-teal); font-weight: 600;">Interaksi Aktif</span>
+                </div>
+                <div class="tags">
+                    <span>Rotasi Aksial</span>
+                    <span>Skala Perbesaran</span>
+                    <span>Optimalisasi Mobile & Desktop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURES SECTION ===== -->
+    <section class="features-section" id="features">
+        <div class="section-title">
+            <h2>Standar Visualisasi & Metodologi</h2>
+            <p>Fitur penunjang keilmuan untuk pembelajaran medis dan anatomi klinis</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item">
+                <span class="feature-index">01</span>
+                <h4>Interaktivitas Spasial Penuh</h4>
+                <p>Kemampuan observasi sudut pandang 360 derajat guna memahami topografi anatomi secara mendalam.</p>
+            </div>
+            <div class="feature-item">
+                <span class="feature-index">02</span>
+                <h4>Aksesibilitas Multi-Platform</h4>
+                <p>Performa rendering optimal di berbagai resolusi layar peramban tanpa mengurangi ketajaman visual.</p>
+            </div>
+            <div class="feature-item">
+                <span class="feature-index">03</span>
+                <h4>Akurasi Nomenklatur Medis</h4>
+                <p>Deskripsi fungsi organ, vaskularisasi, serta patologi umum disusun sesuai referensi anatomis baku.</p>
+            </div>
+            <div class="feature-item">
+                <span class="feature-index">04</span>
+                <h4>Modul Terbuka & Edukatif</h4>
+                <p>Sumber referensi terbuka yang dirancang khusus untuk mahasiswa kedokteran, praktisi, dan akademisi.</p>
+            </div>
+            <div class="feature-item">
+                <span class="feature-index">05</span>
+                <h4>Orientasi Bidang Anatomi</h4>
+                <p>Kemudahan memvisualisasikan potongan transversal, sagital, dan koronal pada organ-organ target.</p>
+            </div>
+            <div class="feature-item">
+                <span class="feature-index">06</span>
+                <h4>Komprehensif Klinis</h4>
+                <p>Dilengkapi data relevan mengenai patofisiologi dan kelainan klinis umum pada sistem pernapasan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>RespiraMedical 3D</h3>
+                <p>
+                    Sistem referensi visualisasi medis dan atlas anatomi pernapasan manusia interaktif untuk keperluan riset dan edukasi klinis.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Klasifikasi Organ</h4>
+                <ul>
+                    <li><a href="#" data-component="hidung">Hidung (Nasus)</a></li>
+                    <li><a href="#" data-component="rongga">Rongga Hidung (Cavum Nasi)</a></li>
+                    <li><a href="#" data-component="trakea">Laring, Trakea & Bronkus</a></li>
+                    <li><a href="#" data-component="paru">Paru-Paru (Pulmo)</a></li>
+                    <li><a href="#" data-component="diafragma">Diafragma (Diaphragma)</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Dokumentasi</h4>
+                <ul>
+                    <li><a href="#">Tentang Platform</a></li>
+                    <li><a href="#">Referensi Anatomi</a></li>
+                    <li><a href="#">Pedoman Lisensi</a></li>
+                    <li><a href="#">Kemitraan Medis</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Standar Klinis</h4>
+                <ul>
+                    <li><a href="#">Terminologia Anatomica</a></li>
+                    <li><a href="#">Protokol Peninjauan</a></li>
+                    <li><a href="#">Panduan Aksesibilitas</a></li>
+                    <li><a href="#">Kontak Redaksi</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 RespiraMedical 3D. Hak Cipta Dilindungi Undang-Undang.</span>
+            <div class="footer-links-simple">
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat Penggunaan</a>
+                <a href="#">Pemberitahuan Medis</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== MODAL ===== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <button class="modal-close" id="modalClose" aria-label="Tutup Detail">&times;</button>
+            <div class="modal-header-meta">
+                <span class="modal-badge-spec">Lembar Anatomi Klinis</span>
+            </div>
+            <h2 id="modalTitle">Nama Organ</h2>
+            <span class="subtitle" id="modalSubtitle">Klasifikasi & Fungsi</span>
+            
+            <!-- Container untuk model 3D khusus -->
+            <div id="modalModelContainer" style="display:none;">
+                <div class="modal-model-viewer">
+                    <div class="viewer-wrapper">
+                        <iframe 
+                            id="modalModelIframe"
+                            frameborder="0"
+                            allowfullscreen
+                            mozallowfullscreen="true"
+                            webkitallowfullscreen="true"
+                            allow="autoplay; fullscreen; xr-spatial-tracking"
+                            src="">
+                        </iframe>
+                    </div>
+                    <div class="viewer-label">
+                        <span id="modalModelLabel">Model 3D Klinis</span>
+                        <span style="color: var(--primary-teal);">Interaktif &bull; Manipulasi Spasial</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="modalDescription">
+                <p>Deskripsi anatomi organ.</p>
+            </div>
+            <div class="detail-grid" id="modalDetails">
+                <div class="detail-item">
+                    <div class="label">Fungsi Fisiologis</div>
+                    <div class="value" id="detailFungsi">-</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Lokasi Topografis</div>
+                    <div class="value" id="detailLokasi">-</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Struktur & Jaringan</div>
+                    <div class="value" id="detailStruktur">-</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Patologi & Gangguan Klinis</div>
+                    <div class="value" id="detailGangguan">-</div>
+                </div>
+            </div>
+            <button class="modal-cta" id="modalCta">
+                Fokuskan ke Model 3D
+            </button>
+        </div>
+    </div>
+
+    <!-- ===== TOAST ===== -->
+    <div class="toast" id="toast">
+        <div class="toast-title" id="toastTitle">Organ Terpilih</div>
+        <div class="toast-msg" id="toastMsg">Menampilkan tinjauan spesifikasi klinis</div>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script>
+        // ===== DATA KOMPONEN DENGAN MODEL 3D SPESIFIK =====
+        const cleanParams = '?autostart=1&ui_theme=dark&ui_controls=0&ui_infos=0&ui_watermark=0&ui_help=0&ui_settings=0&ui_inspector=0&ui_annotations=0&ui_stop=0&ui_hint=0&ui_ar=0&ui_vr=0&ui_fullscreen=0&ui_general_controls=0&ui_fadeout=0&dnt=1';
+
+        const componentData = {
+            hidung: {
+                title: 'Hidung (Nasus Externus)',
+                subtitle: 'Pintu Masuk Traktus Respiratori',
+                hasSpecialModel: true,
+                modelUrl: 'https://sketchfab.com/models/9be710c2357b4705a744f9be6052f139/embed' + cleanParams,
+                modelLabel: 'Model 3D Hidung Luar (Nasus)',
+                description: `
+                    <p><strong>Hidung</strong> adalah organ eksternal pertama pada saluran pernapasan. Selain menjadi jalur konduksi udara, hidung memiliki peran vital dalam filtrasi partikulat, termoregulasi (penyesuaian suhu), dan humidifikasi (pelembapan udara respirasi).</p>
+                    <p>Pada vestibulum nasi terdapat rambut hidung (vibrissae) dan lapisan mukosa bersilia yang berfungsi sebagai barier mekanis untuk menyaring partikel debu dan mikroorganisme asing.</p>
+                    <p>Kerangka hidung tersusun atas os nasale di bagian proksimal, serta kombinasi kartilago lateralis dan kartilago alaris di bagian distal yang memberikan elastisitas anatomis.</p>
+                `,
+                details: {
+                    fungsi: 'Filtrasi partikel, termoregulasi, dan humidifikasi udara',
+                    lokasi: 'Regio facialis anterior, medial dari os zygomaticum',
+                    struktur: 'Os nasale, kartilago lateralis, kartilago alaris, dan nares anteriores',
+                    gangguan: 'Rinitis, epistaksis, fraktur os nasale, deviasi septum nasi'
+                },
+                cta: 'Tampilkan Model 3D Hidung'
+            },
+            rongga: {
+                title: 'Rongga Hidung (Cavum Nasi)',
+                subtitle: 'Kanal Filtrasi & Resonansi Akustik',
+                hasSpecialModel: true,
+                modelUrl: 'https://sketchfab.com/models/003f9156b86643c3acd1c610d297a1e3/embed' + cleanParams,
+                modelLabel: 'Model 3D Anatomi Cavum Nasi',
+                description: `
+                    <p><strong>Cavum Nasi</strong> merupakan ruang lapang di posterior nares yang dilapisi oleh membran mukosa respiratorik bertingkat semu dengan silia (pseudostratified ciliated columnar epithelium).</p>
+                    <p>Pada dinding lateral terdapat tiga tonjolan tulang berpola lekukan yang disebut <strong>konka nasalis</strong> (superior, media, inferior). Konka memperluas area permukaan kontak mukosa, menciptakan turbulensi untuk memaksimalkan filtrasi dan pengaturan suhu udara.</p>
+                    <p>Cavum nasi terhubung dengan <strong>sinus paranasalis</strong> (maksilaris, frontalis, etmoidalis, sfenoidalis) yang membantu meringankan massa kranium dan berfungsi sebagai ruang resonansi fonasi.</p>
+                `,
+                details: {
+                    fungsi: 'Humidifikasi maksimal, kondisioning termal, dan olfaksi',
+                    lokasi: 'Inferior dari fossa cranii anterior, superior dari cavum oris',
+                    struktur: 'Septum nasi, konka nasalis, meatus nasalis, dan mukosa olfaktori',
+                    gangguan: 'Sinusitis, polip nasi, hipertrofi konka, anosmia'
+                },
+                cta: 'Tampilkan Model 3D Cavum Nasi'
+            },
+            trakea: {
+                title: 'Laring, Trakea & Percabangan Bronkial',
+                subtitle: 'Saluran Konduksi Udara Menuju Paru',
+                hasSpecialModel: true,
+                modelUrl: 'https://sketchfab.com/models/8458de63d0734776aa901615cf1f15ca/embed' + cleanParams,
+                modelLabel: 'Model 3D Laring, Trakea & Pohon Bronkial',
+                description: `
+                    <p><strong>Laring</strong> (kotak suara) menghubungkan orofaring dengan trakea, berperan sebagai katup protektif jalan napas (melalui epiglotis) dan organ fonasi utama melalui modulasi plika vokalis.</p>
+                    <p><strong>Trakea</strong> merupakan saluran elastis sepanjang 10-12 cm yang tersusun dari 16-20 cincin kartilago hialin berbentuk huruf C (inkomplit di bagian posterior) yang menjaga patensi lumen saluran dari tekanan eksternal.</p>
+                    <p>Pada bifurkasio trakea (karina), saluran bercabang menjadi <strong>bronkus principalis dexter dan sinister</strong>, yang kemudian terbagi menjadi bronkus lobaris, bronkus segmentalis, hingga bronkiolus respiratorius.</p>
+                `,
+                details: {
+                    fungsi: 'Konduksi paten udara inspirasi/ekspirasi dan mekanisme fonasi suara',
+                    lokasi: 'Regio colli anterior berlanjut ke mediastinum superius dan medium',
+                    struktur: 'Kartilago tiroidea, krikoida, kartilago trakealis, dan karina',
+                    gangguan: 'Laringitis, stenosis trakea, bronkitis kronis, aspirasi benda asing'
+                },
+                cta: 'Tampilkan Model 3D Laring-Trakea'
+            },
+            paru: {
+                title: 'Paru-Paru (Pulmo Dexter & Sinister)',
+                subtitle: 'Pusat Difusi Pertukaran Gas Alveolar',
+                hasSpecialModel: true,
+                modelUrl: 'https://sketchfab.com/models/3724a2f2735b40bda6d65297f7dbcf0c/embed' + cleanParams,
+                modelLabel: 'Model 3D Anatomi Pulmo',
+                description: `
+                    <p><strong>Pulmo</strong> adalah organ esensial tempat terjadinya proses pertukaran gas respirasi antara atmosfer dan sirkulasi darah kapiler. Pulmo dexter terbagi menjadi 3 lobus (superior, medius, inferior), sedangkan pulmo sinister terbagi menjadi 2 lobus untuk memberikan ruang bagi takik kardiak (incisura cardiaca).</p>
+                    <p>Di dalam parenkim paru terdapat jutaan <strong>alveolus</strong> dengan membran respirasi ultra-tipis (sekitar 0.5 mikron), memungkinkan difusi pasif oksigen menuju eritrosit dan pelepasan karbon dioksida ke lumen alveolar.</p>
+                    <p>Paru-paru dilapisi oleh membran serosa ganda yang disebut <strong>pleura</strong> (pleura viseralis dan parietalis) dengan cavum pleura berisi cairan pelumas bertekanan intrapleural negatif.</p>
+                `,
+                details: {
+                    fungsi: 'Difusi O2 ke kapiler darah dan eliminasi CO2 dari metabolisme',
+                    lokasi: 'Cavum thoracis, lateral dari cavum mediastinum',
+                    struktur: 'Lobus pulmonalis, bronkiolus, alveoli, dan pleura serosa',
+                    gangguan: 'Pneumonia, asma bronkiale, PPOK, tuberkulosis, pneumotoraks'
+                },
+                cta: 'Tampilkan Model 3D Pulmo'
+            },
+            diafragma: {
+                title: 'Diafragma (Musculus Diaphragma)',
+                subtitle: 'Penggerak Mekanis Ventilasi Paru',
+                hasSpecialModel: true,
+                modelUrl: 'https://sketchfab.com/models/b62b76467c6948fbb735c78c0c428d65/embed' + cleanParams,
+                modelLabel: 'Model 3D Musculus Diaphragma',
+                description: `
+                    <p><strong>Diafragma</strong> adalah struktur muskuloaponeurotik berbentuk kubah yang membentuk batas antara rongga dada (cavum thoracis) dan rongga perut (cavum abdominis).</p>
+                    <p>Saat fase <strong>inspirasi</strong>, kontraksi serabut diafragma mendatarkan kubah ke arah inferior, meningkatkan volume vertikal cavum thoracis dan menurunkan tekanan alveolar (hukum Boyle), sehingga udara luar mengalir masuk ke paru-paru. Pada fase <strong>ekspirasi</strong> pasif, diafragma berelaksasi dan kembali melengkung ke posisi superior.</p>
+                    <p>Diafragma dipersarafi secara motorik oleh <strong>nervus frenikus</strong> (akar saraf C3-C5) dan memiliki celah anatomis (hiatus aorta, hiatus esofagus, foramen vena kava) untuk struktur vaskular dan pencernaan mayor.</p>
+                `,
+                details: {
+                    fungsi: 'Penggerak utama ventilasi pulmonal mekanis dan regulasi gradien thorakoabdominal',
+                    lokasi: 'Dasar cavum thoracis / atap cavum abdominis',
+                    struktur: 'Centrum tendineum, pars lumbalis, pars costalis, dan pars sternalis',
+                    gangguan: 'Hernia diafragmatika, singultus (cegukan), paralisis nervus frenikus'
+                },
+                cta: 'Tampilkan Model 3D Diafragma'
+            }
+        };
+
+        // ===== ELEMEN =====
+        const modalOverlay = document.getElementById('modalOverlay');
+        const modalClose = document.getElementById('modalClose');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalSubtitle = document.getElementById('modalSubtitle');
+        const modalDescription = document.getElementById('modalDescription');
+        const modalModelContainer = document.getElementById('modalModelContainer');
+        const modalModelIframe = document.getElementById('modalModelIframe');
+        const modalModelLabel = document.getElementById('modalModelLabel');
+        const detailFungsi = document.getElementById('detailFungsi');
+        const detailLokasi = document.getElementById('detailLokasi');
+        const detailStruktur = document.getElementById('detailStruktur');
+        const detailGangguan = document.getElementById('detailGangguan');
+        const modalCta = document.getElementById('modalCta');
+        const toast = document.getElementById('toast');
+        const toastTitle = document.getElementById('toastTitle');
+        const toastMsg = document.getElementById('toastMsg');
+        let toastTimeout;
+
+        // ===== FUNGSI MODAL =====
+        function openModal(componentKey) {
+            const data = componentData[componentKey];
+            if (!data) return;
+
+            modalTitle.textContent = data.title;
+            modalSubtitle.textContent = data.subtitle;
+            modalDescription.innerHTML = data.description;
+            detailFungsi.textContent = data.details.fungsi;
+            detailLokasi.textContent = data.details.lokasi;
+            detailStruktur.textContent = data.details.struktur;
+            detailGangguan.textContent = data.details.gangguan;
+            modalCta.textContent = data.cta;
+
+            // Tampilkan/sembunyikan model 3D khusus
+            if (data.hasSpecialModel) {
+                modalModelContainer.style.display = 'block';
+                modalModelLabel.textContent = data.modelLabel;
+                modalModelIframe.src = data.modelUrl;
+            } else {
+                modalModelContainer.style.display = 'none';
+                modalModelIframe.src = 'about:blank';
+            }
+
+            modalOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+
+            // Tombol CTA
+            modalCta.onclick = function() {
+                modalOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+                if (data.hasSpecialModel) {
+                    document.getElementById('components').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    showToast(data.title, 'Model anatomi dimuat pada tampilan');
+                } else {
+                    document.getElementById('viewer').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    showToast(data.title, 'Navigasi ke viewer anatomi 3D');
+                }
+            };
+        }
+
+        function closeModal() {
+            modalOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+            modalModelIframe.src = 'about:blank';
+        }
+
+        // ===== TOAST =====
+        function showToast(title, msg) {
+            toastTitle.textContent = title;
+            toastMsg.textContent = msg;
+            toast.classList.add('show');
+            clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        // ===== EVENT LISTENERS =====
+        document.querySelectorAll('.component-card').forEach(card => {
+            card.addEventListener('click', function() {
+                const component = this.dataset.component;
+                if (component && componentData[component]) {
+                    openModal(component);
+                }
+            });
+        });
+
+        document.querySelectorAll('[data-component]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const component = this.dataset.component;
+                if (component && componentData[component]) {
+                    openModal(component);
+                    document.getElementById('components').scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', function(e) {
+            if (e.target === this) closeModal();
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // ===== NAVBAR SCROLL =====
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 40) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // ===== HAMBURGER =====
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // ===== SMOOTH SCROLL =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ===== INTERSECTION OBSERVER =====
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -40px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.component-card, .feature-item').forEach((el) => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.5s ease-out';
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
